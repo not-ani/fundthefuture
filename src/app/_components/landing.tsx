@@ -2,13 +2,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  MoonIcon,
-  SunIcon,
-  MenuIcon,
-  XIcon,
-  ArrowRightIcon,
-} from "lucide-react";
+import { MenuIcon, XIcon, ArrowRightIcon } from "lucide-react";
 
 export function Component() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -113,8 +107,8 @@ export function Component() {
                 <p className="text-lg mb-4">
                   Our mission is to bridge the gap between academic learning and
                   real-world experiences by providing financial support for
-                  extracurricular activities that enrich students' educational
-                  journeys.
+                  extracurricular activities that enrich students&apos;
+                  educational journeys.
                 </p>
                 <p className="text-lg">
                   Through our grants, we aim to foster creativity, critical
@@ -140,8 +134,8 @@ export function Component() {
             </h2>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
               Are you a high school student looking to fund an extracurricular
-              project or activity? We're excited to hear about your ideas and
-              support your journey!
+              project or activity? We&apos;re excited to hear about your ideas
+              and support your journey!
             </p>
             <Button size="lg" className="animate-pulse">
               <a
@@ -204,9 +198,9 @@ export function Component() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">Donate Now</h2>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
-              Your contribution can make a significant impact on a student's
-              life. Help us fund the future of education and empower the next
-              generation of leaders.
+              Your contribution can make a significant impact on a
+              student&apos;s life. Help us fund the future of education and
+              empower the next generation of leaders.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button variant="secondary" size="lg" className="w-32">
@@ -220,8 +214,8 @@ export function Component() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">Contact Us</h2>
             <p className="text-lg mb-6">
-              Have questions or want to get involved? We'd love to hear from
-              you!
+              Have questions or want to get involved? We&apos;d love to hear
+              from you!
             </p>
             <Button size="lg">
               <a href="mailto:info@fundthefuture.org">Get in Touch</a>
